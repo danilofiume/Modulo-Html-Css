@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.titoli {
+    color: #3b4754;
+    font-weight: bold;
+}
+
+.altritesti {
+    color: #798da3;
+}
+
+
+
+header div  {
+    width: 50%;
+    float: left;
+    margin: 3em 0;
+}
+
+header div img {
+    float: right;
+    width: 20%;
+}
+
+
+/*modulo*/
+
+#container {
+    width: 100%;
+    background-color: #eff0f4;
+    border: 2px solid #c9d3dd;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#field1 {
+    width: 64%;
+    float: left;
+    margin: 0;
+    padding-left: 5em;
+    border-right: 2px solid #c9d3dd;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+
+#field1 h2 {
+    padding: 0.3em 0 0 0;
+}
+
+#field1 form ul {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#field1 form ul li {
+    width: 50%;
+    display: block;
+    list-style:none;
+    float: left;
+    margin: 0.2em 0;
+}
+
+#field1 form label {
+    display: block;
+    margin: 0.5em 0;
+    
+}
+
+#field1 form input, select {
+    border: 3px solid #c9d3dd;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+
+#tx {
+    width: 90%;
+    margin: 2em 0;
+    display: inline;
+    border-radius: 5px;
+    padding: 1em;
+    border: 3px solid #c9d3dd;
+    
+}
+
+
+input[type=submit] {
+    background-color: #3b4754;
+    color: white;
+    max-width: 25%;
+    min-height: 45px;
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 28%;
+    margin-top: 20px;
+}
+
+input[type=checkbox]{
+    max-width: 20px;
+    float: left;
+    
+    margin: -0.3em 0.5em 0 0;
+
+}
+
+
+
+
+
+
+
+
+#field2 {
+    border: none;
+}
+
+#field2 div ul {
+    list-style: none;
+}
+
+
+#field2 ul li img {
+    margin-right: 8px;
+}
+
+
+#field2 h2 {
+    padding: 0.3em 1.8em;
+}
+
+
+
+
+#ct {
+    
+    border-bottom: 2px solid #c9d3dd;
+    border-top: 2px solid #c9d3dd;
+    margin: 3em 0;
+    padding: 0.5em 0;
+}
+
+#ct ul li {
+    padding: 1em 0;
+    
+   
+}
+
+#img {
+    padding: 0.3em 1.8em;
+}
+
+#img img {
+padding-right: 1em ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#field2 {
+    width: 35%;
+    float: left;
+    margin: 0;
+}
+
+
+
+
+

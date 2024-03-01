@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il modulo dei contatti</title>
+    
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <header>
+    
+    <div>
+        <h1 class="titoli">Contattaci</h1>
+        <p class="altritesti">Vuoi saperne di più sui nostri corsi web? Scrivici e prenota un appuntamento con noi. Ti aiuteremo a trovare il corso su misura per te.</p>
+    </div>
+
+    <div>
+            <img src="immagini/logo-nero.png" alt="">
+    </div>
+        
+    </header>
+    
+    
+    <fieldset id="container">
+
+   <fieldset id="field1">
+
+    <form action="">
+
+        <h2 class="titoli">Scrivi il tuo messaggio</h2>
+        <h4 class="altritesti">Scrivici e ti risponderemo il prima possibile</h4>
+
+        <ul>
+
+        <li>
+        <label for="nome" class="titoli">Il tuo nome</label>
+        <input type="text" id="nome" placeholder="Nome e cognome" required>
+        </li>
+
+    
+        <li>
+        <label for="email" class="titoli">La tua email</label>
+        <input type="email" id="email" placeholder="you@email.it">
+        </li> 
+
+       
+
+
+        <li>
+        <label for="tel" class="titoli">Il tuo telefono</label>
+        <input type="tel" id="tel" placeholder="Scrivi il tuo telefono">
+        </li>
+
+       
+         
+        <li>
+        <label for="azienda" class="titoli">La tua azienda</label>
+        <input type="text" id="azienda" placeholder="Il nome della tua azienda">
+        </li>
+
+      
+
+        <li>
+        <label for="lista" class="titoli">A quale corso sei interessato?</label>
+    
+
+        <select id="lista">
+
+        <option selected>-</option>
+        <option value="Front End">Corso Front End Development</option>
+        <option value="Back End">Corso Back End Developmente</option>
+        <option value="Full Stack">Corso Full Stack Development</option>
+        <option value="Design">Corso UI/UX Design</option>
+        <option value="none">Non ho ancora la idee chiare</option>
+
+        </select>
+
+        </li>
+
+       
+
+        <li>
+        <label for="ora" class="titoli">A che ora possiamo ricontattarti?</label>
+        
+        <select id="ora">
+
+        <option selected>-</option>
+        <option value="mattina">mattina 10.00/13.00</option>
+        <option value="pranzo">pranzo 13.00/14.00</option>
+        <option value="pomeriggio">pomeriggio 15.00/18.00</option>
+        <option value="sera">sera 18.00/20.00</option>
+
+        </select>
+
+        </li>
+
+        </ul>
+
+
+        <div>
+        <textarea name="" id="tx" cols="80" rows="6" placeholder="Scrivi il tuo messaggio qui"></textarea>
+        </div>
+       
+    
+        
+        <input type="checkbox" id="cb">
+        <label for="cb" class="altritesti" id>Ho letto l'informativa sulla privacy ed accetto le condizioni</label>
+
+    
+
+        <input type="submit" value="SUMBIT" >
+        
+
+    
+        
+      </form>
+
+    </fieldset>
+
+    <fieldset id="field2">
+
+       
+            <h2 class="titoli">I nostri contatti</h2>
+        
+
+        <div id="ct">
+            <ul>
+                <li class="altritesti" ><img src="immagini/map.png" alt="">Via Francesco Saverio Solari 8, Roma</li>
+                <li class="altritesti"><img src="immagini/mail.png" alt="">info@labfortraining.it</li>
+                <li class="altritesti"><img src="immagini/phone.png" alt="">+39 0658205135</li>
+            </ul>
+        </div>
+
+        <div id="img">
+            <img src="immagini/twitter.png" alt="">
+            <img src="immagini/instagram.png" alt="">
+            <img src="immagini/facebook.png" alt="">
+        </div>
+
+    </fieldset>
+
+</fieldset>
+        
+
+
+
+    
+
+
+
+    
+
+
+    
+    
+</body>
+</html>
